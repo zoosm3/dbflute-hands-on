@@ -15,12 +15,6 @@
 		<property name="password">"maihamadb"</property>
 	</component>
 
-	<component name="connectionPool" class="org.lastaflute.jta.dbcp.SimpleConnectionPool">
-		<property name="timeout">600</property>
-		<property name="maxPoolSize">10</property>
-		<property name="allowLocalTx">true</property>
-		<preDestroy name="close"/>
-	</component>
-
+	<component name="connectionPool" class="org.lastaflute.jta.dbcp.SimpleConnectionPool"/>
 	<component name="dataSource" class="org.lastaflute.jta.dbcp.PooledDataSource"/>
 </components>
