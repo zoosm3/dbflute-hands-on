@@ -5,6 +5,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.time.LocalDateTime;
 
+import javax.annotation.Resource;
 import javax.sql.DataSource;
 
 import org.dbflute.cbean.result.ListResultBean;
@@ -38,7 +39,9 @@ import org.docksidestage.handson.dbflute.exentity.Purchase;
  */
 public abstract class UnitContainerTestCase extends ContainerTestCase {
 
+    @Resource
     private MemberBhv memberBhv;
+    @Resource
     private PurchaseBhv purchaseBhv;
 
     /**
