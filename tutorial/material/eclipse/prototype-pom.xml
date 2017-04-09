@@ -14,7 +14,7 @@
 		<lasta.di.version>0.7.4</lasta.di.version>
 		<dbflute.version>1.1.2</dbflute.version>
 		<mysql.jdbc.version>5.1.37</mysql.jdbc.version>
-		<utflute.version>0.7.1</utflute.version>
+		<utflute.version>0.7.2</utflute.version>
 	</properties>
 
 	<url>http://dbflute.seasar.org/ja/tutorial/handson/index.html</url>
