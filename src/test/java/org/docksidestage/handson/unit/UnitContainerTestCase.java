@@ -90,6 +90,7 @@ public abstract class UnitContainerTestCase extends ContainerTestCase {
                 purCB.specify().columnMemberId();
             });
         });
+
         HandyDate handyDate = new HandyDate(adjustedMember.getFormalizedDatetime(), getUnitTimeZone());
         LocalDateTime movedDatetime = handyDate.addDay(7).moveToDayTerminal().moveToSecondJust().getLocalDateTime();
         updatedPurchaseList.forEach(purchase -> {
