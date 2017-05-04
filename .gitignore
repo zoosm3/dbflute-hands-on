@@ -3,6 +3,10 @@
 /.classpath
 /bin
 /target
+/*.iml
+/.idea
+/.gradle
+/tomcat.*
 /dbflute_maihamadb
 /mydbflute
 /pom.xml
