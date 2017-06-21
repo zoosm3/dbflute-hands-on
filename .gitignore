@@ -1,14 +1,36 @@
+# common
+/target
+/build
+/bin
+.DS_Store
+
+# Eclipse
 /.settings
 /.project
 /.classpath
-/bin
-/target
+
+# IntelliJ IDEA
+/.idea/artifacts
+/.idea/libraries
+/.idea/modules
+/.idea/compiler.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
 /*.iml
-/.idea
+/out
+
+# Gradle
 /.gradle
+
+# Tomcat
 /tomcat.*
+
+# DBFlute
 /dbflute_maihamadb
 /mydbflute
-/pom.xml
 /dbflute-intro.*
 /mydbflute/intro_resources
+
+# application
+/pom.xml
