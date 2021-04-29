@@ -10,12 +10,13 @@
 /.classpath
 
 # IntelliJ IDEA
-/.idea/*
-!/.idea/inspectionProfiles
-!/.idea/codeStyleSettings.xml
-!/.idea/misc.xml
-!/.idea/saveactions_settings.xml
-/*.iml
+**/.idea/*
+!**/.idea/codeStyles
+!**/.idea/inspectionProfiles
+!**/.idea/encodings.xml
+!**/.idea/misc.xml
+!**/.idea/saveactions_settings.xml
+**/*.iml
 /out
 
 # Gradle
