@@ -9,7 +9,7 @@
 			"com.mysql.jdbc.Driver"
 		</property>
 		<property name="URL">
-			"jdbc:mysql://localhost:43376/maihamadb"
+			"jdbc:mysql://localhost:43376/maihamadb?allowPublicKeyRetrieval=true&amp;sslMode=DISABLED"
 		</property>
 		<property name="user">"maihamadb"</property>
 		<property name="password">"maihamadb"</property>
