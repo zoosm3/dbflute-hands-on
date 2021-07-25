@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: mysql:8.0.26
+    restart: always
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_TCP_PORT: 43376
+    volumes:
+      - ./my.cnf:/etc/mysql/conf.d/my.cnf
+      - ./mysql/data:/var/lib/mysql
+    ports:
+      - 43376:43376
